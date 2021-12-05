@@ -849,7 +849,14 @@
 /* Flex part end. */
 
 /* clearfix part start....... */
-
+.clearfix::after{
+    display:block;
+    clear:both;
+    content:"";
+}
+.clearfix {
+  overflow: auto;
+}
 /* clearfix part end. */
 
 /* opacity part start.... */
