@@ -303,7 +303,7 @@
     }
     .text-lg-centerSide {
         text-align: center!important
-
+    }
 
     /* text alignment end */
 
@@ -356,6 +356,28 @@
     }
     /* Background color end */
 
+
+    /* link color section start....... */
+    .link-primary{color:#095cda !important}
+    .link-primary:focus
+    .link-primary:hover{color:#0d65e9 !important}
+    .link-secondary{color:#65696d !important}
+    .link-secondary:focus
+    .link-secondary:hover{color:#595e61 !important}
+    .link-success{color:#0c5332 !important}
+    .link-success:focus
+    .link-success:hover{color:#0d5332 !important}
+    .link-info{color:#07d3fc !important}
+    .link-info:focus
+    .link-info:hover{color:#21cdf0 !important}
+    .link-warning{color:#f3bc17 !important}
+    .link-warning:focus
+    .link-warning:hover{color:#f0b812 !important}
+    .link-danger{color:#f0182e !important}
+    .link-danger:focus
+    .link-danger:hover{color:#af1f2d !important}
+    .link-light{color:#e3ecf5!important}
+    /* link color section end. */
 
     /* Border part start */
     .border {border: 1px solid rgb(241, 233, 233)!important}
@@ -884,16 +906,16 @@
 /* shadow part start........ */
 
 .shadow {
-  box-shadow: 0 0.6rem 1rem rgba(5, 5, 5, 0.15) !important;
+  box-shadow: 0 0.6rem 1rem rgba(5, 5, 5, 0.548) !important;
 }
 .shadow-sm {
-  box-shadow: 0 0.135rem 0.30rem rgba(22, 22, 22, 0.075) !important;
+  box-shadow: 0 0.135rem 0.30rem rgba(10, 10, 10, 0.699) !important;
 }
 .shadow-md {
   box-shadow: 0 0.135rem 0.30rem rgba(5, 5, 5, 0.801) !important;
 }
 .shadow-lg {
-  box-shadow: 0 1rem 3rem rgba(7, 6, 6, 0.175) !important;
+  box-shadow: 0 1rem 3rem rgba(7, 6, 6, 0.514) !important;
 }
 .shadow-none {
   box-shadow: none !important;
@@ -1355,7 +1377,7 @@
 .align-middle{vertical-align:middle!important}
 .align-bottom{vertical-align:bottom!important}
 .align-text-bottom{vertical-align:text-bottom!important}
-.align-text-top{vertical-align:text-top!important}.
+.align-text-top{vertical-align:text-top!important}
 /* vertical alignment section part end. */
 
 
