@@ -320,6 +320,19 @@
     /* text transform end */
 
 
+    /* images section start...... */
+    .figure{
+        display:inline-block
+    }
+    .figure-img{
+        margin-bottom:.5rem;
+        line-height:1;
+    }
+    .figure-caption{
+        font-size:.875em;
+        color:#6c757d;
+    }
+    /* images section end. */
     /* Background color start */
     .bg-primary {
         background-color: #0d6efd!important
