@@ -849,11 +849,7 @@
 /* Flex part end. */
 
 /* clearfix part start....... */
-.clearfix::after{
-    display:block;
-    clear:both;
-    content:"";
-}
+
 /* clearfix part end. */
 
 /* opacity part start.... */
