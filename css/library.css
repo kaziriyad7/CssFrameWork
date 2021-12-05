@@ -303,7 +303,7 @@
     }
     .text-lg-centerSide {
         text-align: center!important
-    }
+
 
     /* text alignment end */
 
@@ -848,6 +848,13 @@
 .justify-content-xl-center{justify-content: center!important}
 /* Flex part end. */
 
+/* clearfix part start....... */
+.clearfix::after{
+    display:block;
+    clear:both;
+    content:"";
+}
+/* clearfix part end. */
 
 /* opacity part start.... */
 .opacity-0 {
